@@ -30,3 +30,5 @@
     # Attack
     # Defend
     # Use Item
+
+# StyleEnum
