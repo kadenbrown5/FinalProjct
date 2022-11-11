@@ -973,6 +973,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "Final/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Final.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Final.dll": {}
+        }
       }
     }
   },
@@ -3956,10 +3966,16 @@
         "system.xml.xdocument.4.0.11.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Final/1.0.0": {
+      "type": "project",
+      "path": "../Final/Final.csproj",
+      "msbuildProject": "../Final/Final.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Final >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.1.0",
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.3.0",
@@ -3973,11 +3989,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Owner\\OneDrive\\Desktop\\Coding\\C#\\Final Project\\FinalProjct\\Final.Test\\Final.Test.csproj",
+      "projectUniqueName": "c:\\Users\\Owner\\OneDrive\\Desktop\\Coding\\C#\\Final Project\\FinalProjct\\Final.Test\\Final.Test.csproj",
       "projectName": "Final.Test",
-      "projectPath": "C:\\Users\\Owner\\OneDrive\\Desktop\\Coding\\C#\\Final Project\\FinalProjct\\Final.Test\\Final.Test.csproj",
+      "projectPath": "c:\\Users\\Owner\\OneDrive\\Desktop\\Coding\\C#\\Final Project\\FinalProjct\\Final.Test\\Final.Test.csproj",
       "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Owner\\OneDrive\\Desktop\\Coding\\C#\\Final Project\\FinalProjct\\Final.Test\\obj\\",
+      "outputPath": "c:\\Users\\Owner\\OneDrive\\Desktop\\Coding\\C#\\Final Project\\FinalProjct\\Final.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -3991,7 +4007,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "c:\\Users\\Owner\\OneDrive\\Desktop\\Coding\\C#\\Final Project\\FinalProjct\\Final\\Final.csproj": {
+              "projectPath": "c:\\Users\\Owner\\OneDrive\\Desktop\\Coding\\C#\\Final Project\\FinalProjct\\Final\\Final.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
