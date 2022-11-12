@@ -1,6 +1,6 @@
 # FinalProjct
 
-# PersonClass
+# UserClass
     # Health
     # Attack
     # Type
