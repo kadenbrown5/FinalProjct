@@ -32,3 +32,10 @@
     # Use Item
 
 # StyleEnum
+   # Fire
+   # Water
+   # Air
+   # Earth
+   # Zesty
+
+# List<Weapons>
