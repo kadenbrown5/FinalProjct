@@ -8,7 +8,7 @@
     # level
     # Energy
 
-# EnemyClass
+# IEnemy
     # Health
     # Attack
     # Type
@@ -25,17 +25,12 @@
     # Increase Health
     # Decrease Energy
 
-
 # FightsFunction
     # Attack
     # Defend
-    # Use Item
 
-# StyleEnum
-   # Fire
-   # Water
-   # Air
-   # Earth
-   # Zesty
+# SyleClass
+    # StyleEnum
 
-# List<Weapons>
+# WeaponsClass
+    # List<Weapons>

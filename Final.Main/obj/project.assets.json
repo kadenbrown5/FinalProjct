@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Owner\\OneDrive\\Desktop\\Coding\\C#\\Final Project\\FinalProjct\\Final.Main\\Final.Main.csproj",
+      "projectUniqueName": "c:\\Users\\Owner\\OneDrive\\Desktop\\Coding\\C#\\Final Project\\FinalProjct\\Final.Main\\Final.Main.csproj",
       "projectName": "Final.Main",
-      "projectPath": "C:\\Users\\Owner\\OneDrive\\Desktop\\Coding\\C#\\Final Project\\FinalProjct\\Final.Main\\Final.Main.csproj",
+      "projectPath": "c:\\Users\\Owner\\OneDrive\\Desktop\\Coding\\C#\\Final Project\\FinalProjct\\Final.Main\\Final.Main.csproj",
       "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Owner\\OneDrive\\Desktop\\Coding\\C#\\Final Project\\FinalProjct\\Final.Main\\obj\\",
+      "outputPath": "c:\\Users\\Owner\\OneDrive\\Desktop\\Coding\\C#\\Final Project\\FinalProjct\\Final.Main\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -51,8 +51,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Owner\\OneDrive\\Desktop\\Coding\\C#\\Final Project\\FinalProjct\\Final\\Final.csproj": {
-              "projectPath": "C:\\Users\\Owner\\OneDrive\\Desktop\\Coding\\C#\\Final Project\\FinalProjct\\Final\\Final.csproj"
+            "c:\\Users\\Owner\\OneDrive\\Desktop\\Coding\\C#\\Final Project\\FinalProjct\\Final\\Final.csproj": {
+              "projectPath": "c:\\Users\\Owner\\OneDrive\\Desktop\\Coding\\C#\\Final Project\\FinalProjct\\Final\\Final.csproj"
             }
           }
         }
