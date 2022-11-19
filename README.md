@@ -15,10 +15,14 @@
     # Name
     # level
 
-# ItemClass
+# IWeapons
+    # Damage
+    # Boosts
+
+# ItemStruct
     # Name
     # Boost
-
+    
 # TrainingFunction
     # Increase Attack
     # Increase Defense
@@ -28,9 +32,17 @@
 # FightsFunction
     # Attack
     # Defend
+    # Catch and use exceptions
 
 # SyleClass
     # StyleEnum
 
 # WeaponsClass
     # List<Weapons>
+
+# EnemyClass
+    # Dictionary<String, String>
+    # List<int>
+
+# StaticMenuClass
+    # Menu Function
