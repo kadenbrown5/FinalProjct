@@ -41,7 +41,7 @@
     # List<Weapons>
 
 # EnemyClass
-    # Dictionary<String, String>
+    # Dictionry<String, string>
     # List<int>
 
 # StaticMenuClass

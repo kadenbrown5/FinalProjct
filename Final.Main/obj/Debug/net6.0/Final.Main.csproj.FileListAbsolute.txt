@@ -1,18 +1,36 @@
-c:\Users\Owner\OneDrive\Desktop\Coding\C#\Final Project\FinalProjct\Final.Main\obj\Debug\net6.0\Final.Main.csproj.AssemblyReference.cache
-c:\Users\Owner\OneDrive\Desktop\Coding\C#\Final Project\FinalProjct\Final.Main\obj\Debug\net6.0\Final.Main.GeneratedMSBuildEditorConfig.editorconfig
-c:\Users\Owner\OneDrive\Desktop\Coding\C#\Final Project\FinalProjct\Final.Main\obj\Debug\net6.0\Final.Main.AssemblyInfoInputs.cache
-c:\Users\Owner\OneDrive\Desktop\Coding\C#\Final Project\FinalProjct\Final.Main\obj\Debug\net6.0\Final.Main.AssemblyInfo.cs
-c:\Users\Owner\OneDrive\Desktop\Coding\C#\Final Project\FinalProjct\Final.Main\obj\Debug\net6.0\Final.Main.csproj.CoreCompileInputs.cache
-C:\Users\Owner\OneDrive\Desktop\Coding\C#\Final Project\FinalProjct\Final.Main\bin\Debug\net6.0\Final.Main.exe
-C:\Users\Owner\OneDrive\Desktop\Coding\C#\Final Project\FinalProjct\Final.Main\bin\Debug\net6.0\Final.Main.deps.json
-C:\Users\Owner\OneDrive\Desktop\Coding\C#\Final Project\FinalProjct\Final.Main\bin\Debug\net6.0\Final.Main.runtimeconfig.json
-C:\Users\Owner\OneDrive\Desktop\Coding\C#\Final Project\FinalProjct\Final.Main\bin\Debug\net6.0\Final.Main.dll
-C:\Users\Owner\OneDrive\Desktop\Coding\C#\Final Project\FinalProjct\Final.Main\bin\Debug\net6.0\Final.Main.pdb
-C:\Users\Owner\OneDrive\Desktop\Coding\C#\Final Project\FinalProjct\Final.Main\bin\Debug\net6.0\Final.dll
-C:\Users\Owner\OneDrive\Desktop\Coding\C#\Final Project\FinalProjct\Final.Main\bin\Debug\net6.0\Final.pdb
-C:\Users\Owner\OneDrive\Desktop\Coding\C#\Final Project\FinalProjct\Final.Main\obj\Debug\net6.0\Final.Main.csproj.CopyComplete
-C:\Users\Owner\OneDrive\Desktop\Coding\C#\Final Project\FinalProjct\Final.Main\obj\Debug\net6.0\Final.Main.dll
-C:\Users\Owner\OneDrive\Desktop\Coding\C#\Final Project\FinalProjct\Final.Main\obj\Debug\net6.0\refint\Final.Main.dll
-C:\Users\Owner\OneDrive\Desktop\Coding\C#\Final Project\FinalProjct\Final.Main\obj\Debug\net6.0\Final.Main.pdb
-C:\Users\Owner\OneDrive\Desktop\Coding\C#\Final Project\FinalProjct\Final.Main\obj\Debug\net6.0\Final.Main.genruntimeconfig.cache
-C:\Users\Owner\OneDrive\Desktop\Coding\C#\Final Project\FinalProjct\Final.Main\obj\Debug\net6.0\ref\Final.Main.dll
+c:/Users/Owner/OneDrive/Desktop/Coding/C#/Final Project/FinalProjct/Final.Main/obj/Debug/net6.0/Final.Main.csproj.AssemblyReference.cache
+c:/Users/Owner/OneDrive/Desktop/Coding/C#/Final Project/FinalProjct/Final.Main/obj/Debug/net6.0/Final.Main.GeneratedMSBuildEditorConfig.editorconfig
+c:/Users/Owner/OneDrive/Desktop/Coding/C#/Final Project/FinalProjct/Final.Main/obj/Debug/net6.0/Final.Main.AssemblyInfoInputs.cache
+c:/Users/Owner/OneDrive/Desktop/Coding/C#/Final Project/FinalProjct/Final.Main/obj/Debug/net6.0/Final.Main.AssemblyInfo.cs
+c:/Users/Owner/OneDrive/Desktop/Coding/C#/Final Project/FinalProjct/Final.Main/obj/Debug/net6.0/Final.Main.csproj.CoreCompileInputs.cache
+C:/Users/Owner/OneDrive/Desktop/Coding/C#/Final Project/FinalProjct/Final.Main/bin/Debug/net6.0/Final.Main.exe
+C:/Users/Owner/OneDrive/Desktop/Coding/C#/Final Project/FinalProjct/Final.Main/bin/Debug/net6.0/Final.Main.deps.json
+C:/Users/Owner/OneDrive/Desktop/Coding/C#/Final Project/FinalProjct/Final.Main/bin/Debug/net6.0/Final.Main.runtimeconfig.json
+C:/Users/Owner/OneDrive/Desktop/Coding/C#/Final Project/FinalProjct/Final.Main/bin/Debug/net6.0/Final.Main.dll
+C:/Users/Owner/OneDrive/Desktop/Coding/C#/Final Project/FinalProjct/Final.Main/bin/Debug/net6.0/Final.Main.pdb
+C:/Users/Owner/OneDrive/Desktop/Coding/C#/Final Project/FinalProjct/Final.Main/bin/Debug/net6.0/Final.dll
+C:/Users/Owner/OneDrive/Desktop/Coding/C#/Final Project/FinalProjct/Final.Main/bin/Debug/net6.0/Final.pdb
+C:/Users/Owner/OneDrive/Desktop/Coding/C#/Final Project/FinalProjct/Final.Main/obj/Debug/net6.0/Final.Main.csproj.CopyComplete
+C:/Users/Owner/OneDrive/Desktop/Coding/C#/Final Project/FinalProjct/Final.Main/obj/Debug/net6.0/Final.Main.dll
+C:/Users/Owner/OneDrive/Desktop/Coding/C#/Final Project/FinalProjct/Final.Main/obj/Debug/net6.0/refint/Final.Main.dll
+C:/Users/Owner/OneDrive/Desktop/Coding/C#/Final Project/FinalProjct/Final.Main/obj/Debug/net6.0/Final.Main.pdb
+C:/Users/Owner/OneDrive/Desktop/Coding/C#/Final Project/FinalProjct/Final.Main/obj/Debug/net6.0/Final.Main.genruntimeconfig.cache
+C:/Users/Owner/OneDrive/Desktop/Coding/C#/Final Project/FinalProjct/Final.Main/obj/Debug/net6.0/ref/Final.Main.dll
+/Users/kaden/Desktop/C#/Final/FinalProjct/Final.Main/bin/Debug/net6.0/Final.Main
+/Users/kaden/Desktop/C#/Final/FinalProjct/Final.Main/bin/Debug/net6.0/Final.Main.deps.json
+/Users/kaden/Desktop/C#/Final/FinalProjct/Final.Main/bin/Debug/net6.0/Final.Main.runtimeconfig.json
+/Users/kaden/Desktop/C#/Final/FinalProjct/Final.Main/bin/Debug/net6.0/Final.Main.dll
+/Users/kaden/Desktop/C#/Final/FinalProjct/Final.Main/bin/Debug/net6.0/Final.Main.pdb
+/Users/kaden/Desktop/C#/Final/FinalProjct/Final.Main/bin/Debug/net6.0/Final.dll
+/Users/kaden/Desktop/C#/Final/FinalProjct/Final.Main/bin/Debug/net6.0/Final.pdb
+/Users/kaden/Desktop/C#/Final/FinalProjct/Final.Main/obj/Debug/net6.0/Final.Main.csproj.AssemblyReference.cache
+/Users/kaden/Desktop/C#/Final/FinalProjct/Final.Main/obj/Debug/net6.0/Final.Main.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kaden/Desktop/C#/Final/FinalProjct/Final.Main/obj/Debug/net6.0/Final.Main.AssemblyInfoInputs.cache
+/Users/kaden/Desktop/C#/Final/FinalProjct/Final.Main/obj/Debug/net6.0/Final.Main.AssemblyInfo.cs
+/Users/kaden/Desktop/C#/Final/FinalProjct/Final.Main/obj/Debug/net6.0/Final.Main.csproj.CoreCompileInputs.cache
+/Users/kaden/Desktop/C#/Final/FinalProjct/Final.Main/obj/Debug/net6.0/Final.Main.csproj.CopyComplete
+/Users/kaden/Desktop/C#/Final/FinalProjct/Final.Main/obj/Debug/net6.0/Final.Main.dll
+/Users/kaden/Desktop/C#/Final/FinalProjct/Final.Main/obj/Debug/net6.0/refint/Final.Main.dll
+/Users/kaden/Desktop/C#/Final/FinalProjct/Final.Main/obj/Debug/net6.0/Final.Main.pdb
+/Users/kaden/Desktop/C#/Final/FinalProjct/Final.Main/obj/Debug/net6.0/Final.Main.genruntimeconfig.cache
+/Users/kaden/Desktop/C#/Final/FinalProjct/Final.Main/obj/Debug/net6.0/ref/Final.Main.dll
