@@ -15,7 +15,7 @@
     # Name
     # level
 
-# IWeapons
+# Weapons
     # Damage
     # Boosts
 
