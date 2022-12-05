@@ -44,7 +44,7 @@
     # StyleEnum
 
 # WeaponsClass
-    # List<Weapons>
+    # Weapons<T>
 
 # EnemyClass
     # Dictionry<String, string>
