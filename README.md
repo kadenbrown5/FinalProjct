@@ -13,7 +13,13 @@
     # Attack
     # Type
     # Name
-    # level
+
+# Enemy
+    # Health
+    # Attack
+    # Type
+    # Name
+    # Type
 
 # Weapons
     # Damage

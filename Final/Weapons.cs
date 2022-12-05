@@ -1,19 +1,20 @@
 public class Weapons<TId, TName, TAttack, TDefense>
 {
-   public TId Id {get; set;}
-   public TName? Name {get; set;}
-   public TAttack Attack {get; set;}
-   public TDefense Defense {get; set;} 
+    public TId Id {get;}
+    public TName Name {get;}
+    public TAttack Attack {get;}
+    public TDefense Defense {get;}
+   public Weapons(TId iD, TName name, TAttack attack, TDefense defense)
+   {
+     Id = iD;
+     Name = name;
+     Attack = attack;
+     Defense = defense;
+   }
 }
 
 public class Weapons
 {
-    public static void Sword()
-    {
-    Weapons<int, string, int, int> BasicSword = new Weapons<int, string, int, int>();
-    BasicSword.Id = 0;
-    BasicSword.Name = "Sword";
-    BasicSword.Attack = 5;
-    BasicSword.Defense = 0;
-    }
+    public static Weapons<int, string, int, int> Sword = new Weapons<int, string, int, int>(0, "Sword", 5, 0);
 }
+
