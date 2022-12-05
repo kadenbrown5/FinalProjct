@@ -19,11 +19,7 @@
     # Attack
     # Type
     # Name
-    # Type
 
-# Weapons
-    # Damage
-    # Boosts
 
 # ItemStruct
     # Name

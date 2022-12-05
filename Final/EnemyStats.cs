@@ -1,5 +1,6 @@
     public class EnemyAttack : IEnemyAttack
     {
+        //Properties requirment #11
         private int enemyAttack;
         public EnemyAttack(int attack)
         {

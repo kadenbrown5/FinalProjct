@@ -1,3 +1,4 @@
+//Collection requirement #10
 public class Weapons<TId, TName, TAttack, TDefense>
 {
     public TId Id {get;}
@@ -13,6 +14,7 @@ public class Weapons<TId, TName, TAttack, TDefense>
    }
 }
 
+//Class Requirement #3
 public class Weapons
 {
     public static Weapons<int, string, int, int> Sword = new Weapons<int, string, int, int>(0, "Sword", 5, 0);

@@ -1,3 +1,4 @@
+// Interfaces requirement #13 and #14
 interface IEnemyAttack
 {
     int Attack();
