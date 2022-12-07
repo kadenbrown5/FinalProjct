@@ -182,9 +182,9 @@
             }
             else if(training == "2")
             {
-                User.Attack += 1;
+                User.Attack += 5;
                 User.Level += 1;
-                System.Console.WriteLine("Your Attack has been increased by 1");
+                System.Console.WriteLine("Your Attack has been increased by 5");
                 System.Console.WriteLine("Your Attack is now: " + User.Attack);
                 Training();
             }
@@ -206,7 +206,7 @@
             System.Console.WriteLine(line);
             System.Console.WriteLine("Welcome to the caves");
             System.Console.WriteLine("After touching that rock you were transported into a body of someone with powers");
-            System.Console.WriteLine("That persons name is " + User.Name + "they have the ablility to control " + UserStyle);
+            System.Console.WriteLine("That persons name is " + User.Name + ", they have the ablility to control " + UserStyle);
             System.Console.WriteLine("This is where you will battle your enemies");
             System.Console.WriteLine("After defeating enemies you will learn more about yourself");
             System.Console.WriteLine("Fight your way back home.");
@@ -214,9 +214,69 @@
             firsttime += 1;
             System.Console.WriteLine("1: Continue");
             var Continue = Console.ReadLine();
+            BattleMenu();
         }
+        
+        System.Console.WriteLine(line);
+        System.Console.WriteLine("Welcome back to the caves");
+        System.Console.WriteLine(line);
+        System.Console.WriteLine("1: Iquana Parrot");
+        System.Console.WriteLine("2: Boarqpine");
+        System.Console.WriteLine("3: Buzzard Wasps");
+        System.Console.WriteLine("4: Cat Gator");
+        System.Console.WriteLine("5: Mongoose Lizard");
+        System.Console.WriteLine("6: Badgermole");
+        System.Console.WriteLine("7: Lion Turtle");
+        System.Console.WriteLine("8: Dragon");
+        System.Console.WriteLine("9: Mystery Man");
+        System.Console.WriteLine("E: Exit");
+        System.Console.WriteLine(line);
+        var caves = Console.ReadLine();
+        if(caves == "1")
+        {
+            IquanaParrot();
+        }
+        else if(caves == "2")
+        {
 
-
+        }
+        else if(caves == "3")
+        {
+            
+        }
+        else if(caves == "4")
+        {
+            
+        }
+        else if(caves == "5")
+        {
+            
+        }
+        else if(caves == "6")
+        {
+            
+        }
+        else if(caves == "7")
+        {
+            
+        }
+        else if(caves == "8")
+        {
+            
+        }
+        else if(caves == "9")
+        {
+            
+        }
+        else if(caves == "E" || caves == "e")
+        {
+            
+        }
+        else
+        {
+            System.Console.WriteLine("Invalid Input, Try Again");
+            BattleMenu();
+        }
     }
 
     static void Stats()
@@ -266,6 +326,93 @@
             MainMenu();
         }
     }
+    static void IquanaParrot()
+    {
+        bool Alive = true;
+        EnemyName IPname = new EnemyName("Iquana Parrot");
+        EnemyHealth IPhealth = new EnemyHealth(100);
+        EnemyAttack IPattack = new EnemyAttack(10);
+        EnemyLevel  IPlevel = new EnemyLevel(10);
+        int EnemyHealth = IPhealth.Health();
+        int EnemyAttack = IPattack.Attack();
+        while(Alive)
+        {
+            System.Console.WriteLine(line);
+            System.Console.WriteLine(IPname.Name());
+            System.Console.WriteLine("Level : " + IPlevel.Level());
+            System.Console.WriteLine("Health: " + EnemyHealth);
+            System.Console.WriteLine("Attack: " + EnemyAttack);
+            System.Console.WriteLine(line);
+            System.Console.WriteLine(User.Name);
+            System.Console.WriteLine("Level : " + User.Level);
+            System.Console.WriteLine("Health: " + User.Health);
+            System.Console.WriteLine("Attack: " + User.Attack);
+            System.Console.WriteLine(line);
+            System.Console.WriteLine("1: Attack");
+            System.Console.WriteLine("2: Escape");
+            System.Console.WriteLine(line);
+            var Battle = Console.ReadLine();
 
+            void Attack()
+            {
+                    EnemyHealth -= User.Attack;
+                if(EnemyHealth > 0)
+                {
+                    User.Health -= EnemyAttack;
+                }
+            }
+
+            if(Battle == "1")
+            {
+                
+                Attack();
+
+            }
+            else if(Battle == "2")
+            {
+                Random TryLeave = new Random();
+                int NoLeave = TryLeave.Next(10);
+                if(NoLeave == 5)
+                {
+                    System.Console.WriteLine("You failed to excape");
+                    Attack();
+                }
+                else
+                {
+                    System.Console.WriteLine("You escaped");
+                    User.Health = User.MaxHealth;
+                    MainMenu();
+                }
+            }
+            else
+            {
+                System.Console.WriteLine("Invalid Input, You Attack");
+                Attack();
+                
+            }
+
+            if(EnemyHealth <= 0)
+            {
+                User.Health = User.MaxHealth;
+                User.Gold += 10;
+                Alive = false;
+                System.Console.WriteLine("You killed the Iquana Parrot, You now have " + User.Gold + " Gold");
+            }
+
+            if(User.Health <= 0)
+            {
+                User.Health = User.MaxHealth;
+                double half = 1/2;
+                double HalfGold = User.Gold * half;
+                Math.Ceiling(HalfGold);
+                User.Gold = Convert.ToInt32(HalfGold);
+                System.Console.WriteLine(line);
+                System.Console.WriteLine("You have Died and lost half of your gold");
+                System.Console.WriteLine("You now have Gold: " + User.Gold);
+                System.Console.WriteLine(line);
+                MainMenu();
+            }
+        }
+    }
 }
 
