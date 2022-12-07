@@ -332,7 +332,7 @@
         EnemyName IPname = new EnemyName("Iquana Parrot");
         EnemyHealth IPhealth = new EnemyHealth(100);
         EnemyAttack IPattack = new EnemyAttack(10);
-        EnemyLevel  IPlevel = new EnemyLevel(10);
+        EnemyLevel  IPlevel = new EnemyLevel(20);
         int EnemyHealth = IPhealth.Health();
         int EnemyAttack = IPattack.Attack();
         while(Alive)
@@ -419,7 +419,7 @@
         bool Alive = true;
         EnemyName enemyName = new EnemyName("Boarqpine");
         EnemyHealth enemyHealth = new EnemyHealth(200);
-        EnemyAttack enemyAttack = new EnemyAttack(25);
+        EnemyAttack enemyAttack = new EnemyAttack(20);
         EnemyLevel  enemyLevel = new EnemyLevel(30);
         int EnemyHealth = enemyHealth.Health();
         int EnemyAttack = enemyAttack.Attack();
@@ -482,7 +482,7 @@
             if(EnemyHealth <= 0)
             {
                 User.Health = User.MaxHealth;
-                User.Gold += 10;
+                User.Gold += 20;
                 Alive = false;
                 System.Console.WriteLine("You killed the Iquana Parrot, You now have " + User.Gold + " Gold");
             }
@@ -506,7 +506,7 @@
     {
        bool Alive = true;
         EnemyName enemyName = new EnemyName("Buzzard Wasp");
-        EnemyHealth enemyHealth = new EnemyHealth(300);
+        EnemyHealth enemyHealth = new EnemyHealth(500);
         EnemyAttack enemyAttack = new EnemyAttack(50);
         EnemyLevel  enemyLevel = new EnemyLevel(40);
         int EnemyHealth = enemyHealth.Health();
@@ -570,7 +570,7 @@
             if(EnemyHealth <= 0)
             {
                 User.Health = User.MaxHealth;
-                User.Gold += 10;
+                User.Gold += 50;
                 Alive = false;
                 System.Console.WriteLine("You killed the Iquana Parrot, You now have " + User.Gold + " Gold");
             }
@@ -594,7 +594,7 @@
     {
         bool Alive = true;
         EnemyName enemyName = new EnemyName("Cat Gator");
-        EnemyHealth enemyHealth = new EnemyHealth(600);
+        EnemyHealth enemyHealth = new EnemyHealth(1000);
         EnemyAttack enemyAttack = new EnemyAttack(100);
         EnemyLevel  enemyLevel = new EnemyLevel(50);
         int EnemyHealth = enemyHealth.Health();
@@ -658,7 +658,7 @@
             if(EnemyHealth <= 0)
             {
                 User.Health = User.MaxHealth;
-                User.Gold += 10;
+                User.Gold += 100;
                 Alive = false;
                 System.Console.WriteLine("You killed the Iquana Parrot, You now have " + User.Gold + " Gold");
             }
@@ -682,7 +682,7 @@
     {
         bool Alive = true;
         EnemyName enemyName = new EnemyName("Mongoose Lizard");
-        EnemyHealth enemyHealth = new EnemyHealth(1000);
+        EnemyHealth enemyHealth = new EnemyHealth(1500);
         EnemyAttack enemyAttack = new EnemyAttack(150);
         EnemyLevel  enemyLevel = new EnemyLevel(60);
         int EnemyHealth = enemyHealth.Health();
@@ -746,7 +746,7 @@
             if(EnemyHealth <= 0)
             {
                 User.Health = User.MaxHealth;
-                User.Gold += 10;
+                User.Gold += 150;
                 Alive = false;
                 System.Console.WriteLine("You killed the Iquana Parrot, You now have " + User.Gold + " Gold");
             }
@@ -834,7 +834,7 @@
             if(EnemyHealth <= 0)
             {
                 User.Health = User.MaxHealth;
-                User.Gold += 10;
+                User.Gold += 200;
                 Alive = false;
                 System.Console.WriteLine("You killed the Iquana Parrot, You now have " + User.Gold + " Gold");
             }
@@ -870,4 +870,3 @@
         BattleMenu();
     }
 }
-
