@@ -416,36 +416,458 @@
     }
     static void Boarqpine()
     {
-        System.Console.WriteLine("This area is a work in progress");
-        BattleMenu();
+        bool Alive = true;
+        EnemyName enemyName = new EnemyName("Boarqpine");
+        EnemyHealth enemyHealth = new EnemyHealth(200);
+        EnemyAttack enemyAttack = new EnemyAttack(25);
+        EnemyLevel  enemyLevel = new EnemyLevel(30);
+        int EnemyHealth = enemyHealth.Health();
+        int EnemyAttack = enemyAttack.Attack();
+        while(Alive)
+        {
+            System.Console.WriteLine(line);
+            System.Console.WriteLine(enemyName.Name());
+            System.Console.WriteLine("Level : " + enemyLevel.Level());
+            System.Console.WriteLine("Health: " + EnemyHealth);
+            System.Console.WriteLine("Attack: " + EnemyAttack);
+            System.Console.WriteLine(line);
+            System.Console.WriteLine(User.Name);
+            System.Console.WriteLine("Level : " + User.Level);
+            System.Console.WriteLine("Health: " + User.Health);
+            System.Console.WriteLine("Attack: " + User.Attack);
+            System.Console.WriteLine(line);
+            System.Console.WriteLine("1: Attack");
+            System.Console.WriteLine("2: Escape");
+            System.Console.WriteLine(line);
+            var Battle = Console.ReadLine();
+
+            void Attack()
+            {
+                    EnemyHealth -= User.Attack;
+                if(EnemyHealth > 0)
+                {
+                    User.Health -= EnemyAttack;
+                }
+            }
+
+            if(Battle == "1")
+            {
+                
+                Attack();
+
+            }
+            else if(Battle == "2")
+            {
+                Random TryLeave = new Random();
+                int NoLeave = TryLeave.Next(10);
+                if(NoLeave == 5)
+                {
+                    System.Console.WriteLine("You failed to excape");
+                    Attack();
+                }
+                else
+                {
+                    System.Console.WriteLine("You escaped");
+                    User.Health = User.MaxHealth;
+                    MainMenu();
+                }
+            }
+            else
+            {
+                System.Console.WriteLine("Invalid Input, You Attack");
+                Attack();
+                
+            }
+
+            if(EnemyHealth <= 0)
+            {
+                User.Health = User.MaxHealth;
+                User.Gold += 10;
+                Alive = false;
+                System.Console.WriteLine("You killed the Iquana Parrot, You now have " + User.Gold + " Gold");
+            }
+
+            if(User.Health <= 0)
+            {
+                User.Health = User.MaxHealth;
+                double half = 1/2;
+                double HalfGold = User.Gold * half;
+                Math.Ceiling(HalfGold);
+                User.Gold = Convert.ToInt32(HalfGold);
+                System.Console.WriteLine(line);
+                System.Console.WriteLine("You have Died and lost half of your gold");
+                System.Console.WriteLine("You now have Gold: " + User.Gold);
+                System.Console.WriteLine(line);
+                MainMenu();
+            }
+        }
     }
     static void BuzzardWasp()
     {
+       bool Alive = true;
+        EnemyName enemyName = new EnemyName("Buzzard Wasp");
+        EnemyHealth enemyHealth = new EnemyHealth(300);
+        EnemyAttack enemyAttack = new EnemyAttack(50);
+        EnemyLevel  enemyLevel = new EnemyLevel(40);
+        int EnemyHealth = enemyHealth.Health();
+        int EnemyAttack = enemyAttack.Attack();
+        while(Alive)
+        {
+            System.Console.WriteLine(line);
+            System.Console.WriteLine(enemyName.Name());
+            System.Console.WriteLine("Level : " + enemyLevel.Level());
+            System.Console.WriteLine("Health: " + EnemyHealth);
+            System.Console.WriteLine("Attack: " + EnemyAttack);
+            System.Console.WriteLine(line);
+            System.Console.WriteLine(User.Name);
+            System.Console.WriteLine("Level : " + User.Level);
+            System.Console.WriteLine("Health: " + User.Health);
+            System.Console.WriteLine("Attack: " + User.Attack);
+            System.Console.WriteLine(line);
+            System.Console.WriteLine("1: Attack");
+            System.Console.WriteLine("2: Escape");
+            System.Console.WriteLine(line);
+            var Battle = Console.ReadLine();
 
+            void Attack()
+            {
+                    EnemyHealth -= User.Attack;
+                if(EnemyHealth > 0)
+                {
+                    User.Health -= EnemyAttack;
+                }
+            }
+
+            if(Battle == "1")
+            {
+                
+                Attack();
+
+            }
+            else if(Battle == "2")
+            {
+                Random TryLeave = new Random();
+                int NoLeave = TryLeave.Next(10);
+                if(NoLeave == 5)
+                {
+                    System.Console.WriteLine("You failed to excape");
+                    Attack();
+                }
+                else
+                {
+                    System.Console.WriteLine("You escaped");
+                    User.Health = User.MaxHealth;
+                    MainMenu();
+                }
+            }
+            else
+            {
+                System.Console.WriteLine("Invalid Input, You Attack");
+                Attack();
+                
+            }
+
+            if(EnemyHealth <= 0)
+            {
+                User.Health = User.MaxHealth;
+                User.Gold += 10;
+                Alive = false;
+                System.Console.WriteLine("You killed the Iquana Parrot, You now have " + User.Gold + " Gold");
+            }
+
+            if(User.Health <= 0)
+            {
+                User.Health = User.MaxHealth;
+                double half = 1/2;
+                double HalfGold = User.Gold * half;
+                Math.Ceiling(HalfGold);
+                User.Gold = Convert.ToInt32(HalfGold);
+                System.Console.WriteLine(line);
+                System.Console.WriteLine("You have Died and lost half of your gold");
+                System.Console.WriteLine("You now have Gold: " + User.Gold);
+                System.Console.WriteLine(line);
+                MainMenu();
+            }
+        }
     }
     static void CatGator()
     {
+        bool Alive = true;
+        EnemyName enemyName = new EnemyName("Cat Gator");
+        EnemyHealth enemyHealth = new EnemyHealth(600);
+        EnemyAttack enemyAttack = new EnemyAttack(100);
+        EnemyLevel  enemyLevel = new EnemyLevel(50);
+        int EnemyHealth = enemyHealth.Health();
+        int EnemyAttack = enemyAttack.Attack();
+        while(Alive)
+        {
+            System.Console.WriteLine(line);
+            System.Console.WriteLine(enemyName.Name());
+            System.Console.WriteLine("Level : " + enemyLevel.Level());
+            System.Console.WriteLine("Health: " + EnemyHealth);
+            System.Console.WriteLine("Attack: " + EnemyAttack);
+            System.Console.WriteLine(line);
+            System.Console.WriteLine(User.Name);
+            System.Console.WriteLine("Level : " + User.Level);
+            System.Console.WriteLine("Health: " + User.Health);
+            System.Console.WriteLine("Attack: " + User.Attack);
+            System.Console.WriteLine(line);
+            System.Console.WriteLine("1: Attack");
+            System.Console.WriteLine("2: Escape");
+            System.Console.WriteLine(line);
+            var Battle = Console.ReadLine();
 
+            void Attack()
+            {
+                    EnemyHealth -= User.Attack;
+                if(EnemyHealth > 0)
+                {
+                    User.Health -= EnemyAttack;
+                }
+            }
+
+            if(Battle == "1")
+            {
+                
+                Attack();
+
+            }
+            else if(Battle == "2")
+            {
+                Random TryLeave = new Random();
+                int NoLeave = TryLeave.Next(10);
+                if(NoLeave == 5)
+                {
+                    System.Console.WriteLine("You failed to excape");
+                    Attack();
+                }
+                else
+                {
+                    System.Console.WriteLine("You escaped");
+                    User.Health = User.MaxHealth;
+                    MainMenu();
+                }
+            }
+            else
+            {
+                System.Console.WriteLine("Invalid Input, You Attack");
+                Attack();
+                
+            }
+
+            if(EnemyHealth <= 0)
+            {
+                User.Health = User.MaxHealth;
+                User.Gold += 10;
+                Alive = false;
+                System.Console.WriteLine("You killed the Iquana Parrot, You now have " + User.Gold + " Gold");
+            }
+
+            if(User.Health <= 0)
+            {
+                User.Health = User.MaxHealth;
+                double half = 1/2;
+                double HalfGold = User.Gold * half;
+                Math.Ceiling(HalfGold);
+                User.Gold = Convert.ToInt32(HalfGold);
+                System.Console.WriteLine(line);
+                System.Console.WriteLine("You have Died and lost half of your gold");
+                System.Console.WriteLine("You now have Gold: " + User.Gold);
+                System.Console.WriteLine(line);
+                MainMenu();
+            }
+        }
     }
     static void MongooseLizard()
     {
+        bool Alive = true;
+        EnemyName enemyName = new EnemyName("Mongoose Lizard");
+        EnemyHealth enemyHealth = new EnemyHealth(1000);
+        EnemyAttack enemyAttack = new EnemyAttack(150);
+        EnemyLevel  enemyLevel = new EnemyLevel(60);
+        int EnemyHealth = enemyHealth.Health();
+        int EnemyAttack = enemyAttack.Attack();
+        while(Alive)
+        {
+            System.Console.WriteLine(line);
+            System.Console.WriteLine(enemyName.Name());
+            System.Console.WriteLine("Level : " + enemyLevel.Level());
+            System.Console.WriteLine("Health: " + EnemyHealth);
+            System.Console.WriteLine("Attack: " + EnemyAttack);
+            System.Console.WriteLine(line);
+            System.Console.WriteLine(User.Name);
+            System.Console.WriteLine("Level : " + User.Level);
+            System.Console.WriteLine("Health: " + User.Health);
+            System.Console.WriteLine("Attack: " + User.Attack);
+            System.Console.WriteLine(line);
+            System.Console.WriteLine("1: Attack");
+            System.Console.WriteLine("2: Escape");
+            System.Console.WriteLine(line);
+            var Battle = Console.ReadLine();
 
+            void Attack()
+            {
+                    EnemyHealth -= User.Attack;
+                if(EnemyHealth > 0)
+                {
+                    User.Health -= EnemyAttack;
+                }
+            }
+
+            if(Battle == "1")
+            {
+                
+                Attack();
+
+            }
+            else if(Battle == "2")
+            {
+                Random TryLeave = new Random();
+                int NoLeave = TryLeave.Next(10);
+                if(NoLeave == 5)
+                {
+                    System.Console.WriteLine("You failed to excape");
+                    Attack();
+                }
+                else
+                {
+                    System.Console.WriteLine("You escaped");
+                    User.Health = User.MaxHealth;
+                    MainMenu();
+                }
+            }
+            else
+            {
+                System.Console.WriteLine("Invalid Input, You Attack");
+                Attack();
+                
+            }
+
+            if(EnemyHealth <= 0)
+            {
+                User.Health = User.MaxHealth;
+                User.Gold += 10;
+                Alive = false;
+                System.Console.WriteLine("You killed the Iquana Parrot, You now have " + User.Gold + " Gold");
+            }
+
+            if(User.Health <= 0)
+            {
+                User.Health = User.MaxHealth;
+                double half = 1/2;
+                double HalfGold = User.Gold * half;
+                Math.Ceiling(HalfGold);
+                User.Gold = Convert.ToInt32(HalfGold);
+                System.Console.WriteLine(line);
+                System.Console.WriteLine("You have Died and lost half of your gold");
+                System.Console.WriteLine("You now have Gold: " + User.Gold);
+                System.Console.WriteLine(line);
+                MainMenu();
+            }
+        }
     }
     static void BadgerMole()
     {
+       bool Alive = true;
+        EnemyName enemyName = new EnemyName("Badgermole");
+        EnemyHealth enemyHealth = new EnemyHealth(2000);
+        EnemyAttack enemyAttack = new EnemyAttack(200);
+        EnemyLevel  enemyLevel = new EnemyLevel(70);
+        int EnemyHealth = enemyHealth.Health();
+        int EnemyAttack = enemyAttack.Attack();
+        while(Alive)
+        {
+            System.Console.WriteLine(line);
+            System.Console.WriteLine(enemyName.Name());
+            System.Console.WriteLine("Level : " + enemyLevel.Level());
+            System.Console.WriteLine("Health: " + EnemyHealth);
+            System.Console.WriteLine("Attack: " + EnemyAttack);
+            System.Console.WriteLine(line);
+            System.Console.WriteLine(User.Name);
+            System.Console.WriteLine("Level : " + User.Level);
+            System.Console.WriteLine("Health: " + User.Health);
+            System.Console.WriteLine("Attack: " + User.Attack);
+            System.Console.WriteLine(line);
+            System.Console.WriteLine("1: Attack");
+            System.Console.WriteLine("2: Escape");
+            System.Console.WriteLine(line);
+            var Battle = Console.ReadLine();
 
+            void Attack()
+            {
+                    EnemyHealth -= User.Attack;
+                if(EnemyHealth > 0)
+                {
+                    User.Health -= EnemyAttack;
+                }
+            }
+
+            if(Battle == "1")
+            {
+                
+                Attack();
+
+            }
+            else if(Battle == "2")
+            {
+                Random TryLeave = new Random();
+                int NoLeave = TryLeave.Next(10);
+                if(NoLeave == 5)
+                {
+                    System.Console.WriteLine("You failed to excape");
+                    Attack();
+                }
+                else
+                {
+                    System.Console.WriteLine("You escaped");
+                    User.Health = User.MaxHealth;
+                    MainMenu();
+                }
+            }
+            else
+            {
+                System.Console.WriteLine("Invalid Input, You Attack");
+                Attack();
+                
+            }
+
+            if(EnemyHealth <= 0)
+            {
+                User.Health = User.MaxHealth;
+                User.Gold += 10;
+                Alive = false;
+                System.Console.WriteLine("You killed the Iquana Parrot, You now have " + User.Gold + " Gold");
+            }
+
+            if(User.Health <= 0)
+            {
+                User.Health = User.MaxHealth;
+                double half = 1/2;
+                double HalfGold = User.Gold * half;
+                Math.Ceiling(HalfGold);
+                User.Gold = Convert.ToInt32(HalfGold);
+                System.Console.WriteLine(line);
+                System.Console.WriteLine("You have Died and lost half of your gold");
+                System.Console.WriteLine("You now have Gold: " + User.Gold);
+                System.Console.WriteLine(line);
+                MainMenu();
+            }
+        }
     }
     static void LionTurtle()
     {
-
+        System.Console.WriteLine("This area is a work in progress");
+        BattleMenu();
     }
     static void Dragon()
     {
-
+        System.Console.WriteLine("This area is a work in progress");
+        BattleMenu();
     }
     static void Nick()
     {
-        
+        System.Console.WriteLine("This area is a work in progress");
+        BattleMenu();
     }
 }
 
