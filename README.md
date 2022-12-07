@@ -46,5 +46,5 @@
     # Dictionry<String, string>
     # List<int>
 
-# StaticMenuClass
-    # Menu Function
+# StaticProgramClass
+    
