@@ -238,39 +238,39 @@
         }
         else if(caves == "2")
         {
-
+            Boarqpine();
         }
         else if(caves == "3")
         {
-            
+            BuzzardWasp();   
         }
         else if(caves == "4")
         {
-            
+            CatGator();
         }
         else if(caves == "5")
         {
-            
+            MongooseLizard();
         }
         else if(caves == "6")
         {
-            
+            BadgerMole();
         }
         else if(caves == "7")
         {
-            
+            LionTurtle();
         }
         else if(caves == "8")
         {
-            
+            Dragon();
         }
         else if(caves == "9")
         {
-            
+            Nick();
         }
         else if(caves == "E" || caves == "e")
         {
-            
+            MainMenu();
         }
         else
         {
@@ -413,6 +413,39 @@
                 MainMenu();
             }
         }
+    }
+    static void Boarqpine()
+    {
+        System.Console.WriteLine("This area is a work in progress");
+        BattleMenu();
+    }
+    static void BuzzardWasp()
+    {
+
+    }
+    static void CatGator()
+    {
+
+    }
+    static void MongooseLizard()
+    {
+
+    }
+    static void BadgerMole()
+    {
+
+    }
+    static void LionTurtle()
+    {
+
+    }
+    static void Dragon()
+    {
+
+    }
+    static void Nick()
+    {
+        
     }
 }
 
