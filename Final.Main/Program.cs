@@ -396,7 +396,7 @@
                 User.Health = User.MaxHealth;
                 User.Gold += 10;
                 Alive = false;
-                System.Console.WriteLine("You killed the Iquana Parrot, You now have " + User.Gold + " Gold");
+                System.Console.WriteLine("You killed the " + IPname.Name() + ", You now have " + User.Gold + " Gold");
             }
 
             if(User.Health <= 0)
@@ -484,7 +484,7 @@
                 User.Health = User.MaxHealth;
                 User.Gold += 20;
                 Alive = false;
-                System.Console.WriteLine("You killed the Iquana Parrot, You now have " + User.Gold + " Gold");
+                System.Console.WriteLine("You killed the " + enemyName.Name() + ", You now have " + User.Gold + " Gold");
             }
 
             if(User.Health <= 0)
@@ -572,7 +572,7 @@
                 User.Health = User.MaxHealth;
                 User.Gold += 50;
                 Alive = false;
-                System.Console.WriteLine("You killed the Iquana Parrot, You now have " + User.Gold + " Gold");
+                System.Console.WriteLine("You killed the " + enemyName.Name() + ", You now have " + User.Gold + " Gold");
             }
 
             if(User.Health <= 0)
@@ -660,7 +660,7 @@
                 User.Health = User.MaxHealth;
                 User.Gold += 100;
                 Alive = false;
-                System.Console.WriteLine("You killed the Iquana Parrot, You now have " + User.Gold + " Gold");
+                System.Console.WriteLine("You killed the " + enemyName.Name() + ", You now have " + User.Gold + " Gold");
             }
 
             if(User.Health <= 0)
@@ -748,7 +748,7 @@
                 User.Health = User.MaxHealth;
                 User.Gold += 150;
                 Alive = false;
-                System.Console.WriteLine("You killed the Iquana Parrot, You now have " + User.Gold + " Gold");
+                System.Console.WriteLine("You killed the " + enemyName.Name() + ", You now have " + User.Gold + " Gold");
             }
 
             if(User.Health <= 0)
@@ -836,7 +836,7 @@
                 User.Health = User.MaxHealth;
                 User.Gold += 200;
                 Alive = false;
-                System.Console.WriteLine("You killed the Iquana Parrot, You now have " + User.Gold + " Gold");
+                System.Console.WriteLine("You killed the " + enemyName.Name() + ", You now have " + User.Gold + " Gold");
             }
 
             if(User.Health <= 0)
@@ -856,7 +856,11 @@
     }
     static void LionTurtle()
     {
-        System.Console.WriteLine("This area is a work in progress");
+        System.Console.WriteLine("Work in progress");
+        System.Console.WriteLine(line);
+        System.Console.WriteLine("You come out of the cave and see the giant forest all around you.");
+        System.Console.WriteLine("As you move into the forest it begins to move.");
+        System.Console.WriteLine(line);
         BattleMenu();
     }
     static void Dragon()
